@@ -1,0 +1,34 @@
+*{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.board{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.tile{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    outline: 1px solid white;
+}
+button{
+    outline: 1px solid white;
+    padding: 20px
+}
+.feedback{
+    font-size: 50px;
+}
+.gamemode{
+    position: absolute;
+}
+.active{
+    background-color: white;
+    color: black;
+}
